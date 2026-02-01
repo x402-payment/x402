@@ -10,19 +10,32 @@ EIP-7702 Delegate contract for [x402](https://github.com/x402-payment/x402) gasl
 forge install melonask/facilitator
 ```
 
-Add to your `remappings.txt`:
+<table>
+<tr><td>
+
+Or add to your `remappings.txt`:
+
+</td><td>
+
+Or add to your `foundry.toml`:
+
+</td></tr>
+<tr><td>
 
 ```
 @facilitator/=lib/facilitator/packages/
 ```
 
-Or add to your `foundry.toml`:
+</td><td>
 
 ```
 remappings=[
     "@facilitator/=lib/facilitator/packages/"
 ]
 ```
+
+</td></tr>
+</table>
 
 ## Usage
 
